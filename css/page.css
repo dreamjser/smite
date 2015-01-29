@@ -1,0 +1,175 @@
+/*CSS reset*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,label,legend,input,textarea,p,blockquote,table,tbody,thead,tfoot,tr,th,td{ margin:0; padding:0;}
+table{ border-collapse:collapse;border-spacing:O;}
+img{ border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul{ list-style:none;}
+caption,th{ text-align:left;}
+hl,h2,h3,h4,h5,h6{font-size:lOO%;font-weight:normal;}
+q:before,q:after{content:"";}
+abbr,acronym{ border:0;}
+input{ outline:none;}
+/*文字排版*/
+.f12{ font-size:12px;}
+.f13{ font-size:13px;}
+.f14{ font-size:14px;}
+.f16{ font-size:16px;}
+.f20{ font-size:20px;}
+.fb{ font-weight:bold;}
+.fn{ font-weight:normal;}
+.t2{ text-indent:2em;}
+.unl{ text-decoration:underline;}
+.no-unl{ text-decoration:none;}
+
+/*定位*/
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.bc{ margin-left:auto; margin-right:auto;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+.cl{ clear:left;}
+.cr{ clear:right;}
+.cb{ clear:both;}
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix{*zoom:1;}
+.vm{ vertical-align:middle;}
+.vtop{ vertical-align: top;}
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.abs-right{ position:absolute; right:0;}
+.zoom{ zoom:1;}
+.hidden{ visibility:hidden;}
+.none{ display:none;}
+.ovh{overflow: hidden;}
+.indent{ text-indent: 2em;}
+.indent2{ text-indent: 3em;}
+/*通用类*/
+.f16{ font-size:16px;}
+.mt5{ margin-top:5px;}
+.mt10{ margin-top:10px;}
+.mt20{ margin-top:20px;}
+.mt25{ margin-top:25px;}
+.mt30{ margin-top:30px;}
+.mt40{ margin-top:40px;}
+.mt50{ margin-top:50px;}
+.ml30{ margin-left: 30px;}
+.ml10{ margin-left:10px;}
+.ml15{ margin-left:15px;}
+.img-p100{ width: 100%; display: block; }
+.img-p90{ width: 90%; }
+.opacity0{ opacity: 0;}
+
+/*page*/
+html,body{ width: 100%; height: 100%;}
+body{ overflow: hidden; position: relative; font-size: 67.5%; -webkit-user-select: none; background-color: #73eaea; font-family: "Microsoft YaHei", "微软雅黑", Tahoma, Verdana, Arial;}
+.ani{ -webkit-animation:bossAni 2s linear 0.2s infinite;}
+.ani1{ -webkit-animation:bossAni 1.6s linear 0.2s infinite;}
+.ani2{ -webkit-animation:bossAni 1.6s linear 0.6s infinite;}
+.ani3{ -webkit-animation:bossAni 1.6s linear 1s infinite;}
+.ani4{ -webkit-animation:bossAni 1.6s linear 1.4s infinite;}
+
+.game-ore{ width: 100%; height: 100%; background: url(../images/mobile_ore.png) center top; background-size: cover; }
+.wrapper{ width: 100%; height: 100%; position: absolute; left: 0; bottom: 0;}
+
+.scene{ width: 100%; height: 100%; background-position: center bottom; background-size: cover; position: relative;}
+.scene1{ background-image: url(../images/scene1.png);}
+.scene1-hero{ position: absolute; width: 20%; bottom: 17%; left: 18.4%;}
+.scene1-boss{ position: absolute; width: 33%; bottom:12%; left: 51%; }
+
+.scene1-words{ position: absolute; width: 43.7%; bottom: 5.2%; left: 11%;}
+.scene1-btn{ position: absolute; width: 24.8%; bottom: 3.5%; left: 61%;}
+
+.scene2{ background-image: url(../images/scene2.png);}
+.scene2-hero{ position: absolute; width: 12.3%; bottom: 11.5%; left: 20%;}
+.scene2-boss{ position: absolute; width: 29%; bottom:20%; left: 51%;}
+.scene2-hero-arrow{ position: absolute; width: 22%; bottom: 12.5%; left: 20%;}
+.scene2-stage{ position: absolute; width: 8.8%; height: 15.6%;}
+.scene2-arrow{ left: 37.8%; bottom: 34.2%;}
+.scene2-hammer{ left: 38%; bottom: 11%;}
+.scene2-pen{ left: 54%; bottom: -3%;}
+.scene2-knife{ left: 66%; bottom: 9.3%;}
+.scene2_arrow_center{ position: absolute; width: 26.9%; left: 37.8%; top: 46.9%; -webkit-animation:arrowCneter 1.5s linear infinite;}
+
+.scene2-tips{  position: absolute; width: 85%;}
+.scene2-tips1{  top: -40%; right: -6%;}
+.scene2-tips2{  top: -50%; right: -24%;}
+.scene2-tips3{  top: -38%; right: 40%;}
+.scene2-tips4{  top: 42%; right: -65%;}
+.scene-tips-box{ position: absolute; z-index: 100; -webkit-animation:tipsAni 0.2s linear forwards; -webkit-transform-origin:50% 50%;}
+
+.scene3{ background-image: url(../images/scene3.png); }
+.scene3-stage{ position: absolute;}
+.scene3-ladder{ width: 21.1%; left: 9.3%; bottom: 25.8%;}
+.scene3-go{ width: 13.3%; left: 25.5%; bottom: 11.6%; z-index: 10;}
+.scene3-jump{ width: 15.6%; left: 66.9%; bottom: 43.4%;}
+.scene3-hero{ position: absolute; width: 13.6%; left: 47.5%; bottom: 33.3%;}
+.scene3-btn{ position: absolute; width: 18.75%; left: 72.4%; bottom: 5.9%;}
+
+.scene4-left{ position: absolute; width: 58.5%; left: 0; bottom: 0;}
+.scene4-right{ position: absolute; width: 63.3%; right: 0; bottom: 0; z-index: 10;}
+
+.scene5 .scene5-btn{ position: absolute; width: 18.5%;  bottom: 7.3%; z-index: 10;}
+.scene5-share{ left: 17.3%;}
+.scene5-wx{ left: 39.4%;}
+.scene5-again{ left: 61.1%;}
+.scene5-share-tips{ position: absolute; width: 100%; height: 100%; background: rgba(0,0,0,0.7);}
+.scene5-birds{ position: absolute; width: 13.6%; left: 10.7%; bottom: 50%; z-index: 3;}
+.scene5-hero1{ position: absolute; width: 24.4%; left: 16.1%; bottom: 17.2%; z-index: 5;}
+.scene5-hero2{ position: absolute; width: 33.7%; left: 55.3%; bottom: 17.8%; z-index: 5;}
+.scene5-success{ position: absolute; width: 27.1%; left:  29%; bottom: 31.6%; -webkit-transform-origin:50% 50%;}
+
+.sharebox { position: absolute; top: 0;right: 0;width: 30%;height: 60%;z-index: 102;color: #fff;}
+.sharebox p {text-align: right;padding-top: 55px;padding-right: 5px; font-size: 16px;}
+.sharebox .sbg { position: absolute; top:0; right: 0;display: block;width: 50px;height: 50px;background: url(http://ossweb-img.qq.com/images/game/happy2014/mobile/jiantou.png);background-size: cover;}
+
+.scene-mask-area{ width: 100%; height: 100%;}
+.scene-mask{ position: absolute; width: 100%; height: 100%; left: 0; top: 0;  background: rgba(0,0,0,0.7); z-index: 5000; overflow: hidden;}
+.scene-mask-content{  position: absolute; width: 100%; height: 160px; text-align: center; top: 50%; margin-top: -80px; }
+.scene-mask-icon{ width: 70px; margin: 0 auto;}
+.scene-mask-words{ color: #fff; font-size: 13px; font-weight: bold; color: #fff; margin-top: 20px;}
+.scene-mask-btn{ width: 142px; margin: 20px auto;}
+
+.sui-loading-wrapper{position: fixed; width: 100%; height: 100%; left: 0; top: 0;  background: #73eaea; z-index: 9999;}
+.sui-loading-mask{ width: 100%; height: 100%;}
+.sui-loading-progress{ position: absolute; width: 200px;  left: 50%; top: 50%; margin-left: -100px; margin-top: -10px;}
+.sui-loading-line{ width:0; height: 20px; background: #ffe269; border-radius: 10px;}
+.sui-loading-percent{ text-align: center; font:12px "微软雅黑"; margin-top: 5px; color: #fff;}
+
+@-webkit-keyframes arrowCneter
+{
+0%   { opacity:1;}
+25%  {  opacity:0.75;}
+50%  { opacity:0.5;}
+75%  { opacity:0.75;}
+100% { opacity:1;}
+}
+
+@-webkit-keyframes tipsAni
+{
+0%   { -webkit-transform:scale(0);}
+25%  { -webkit-transform:scale(0.25);}
+50%  { -webkit-transform:scale(0.5);}
+75%  { -webkit-transform:scale(0.75);}
+100% { -webkit-transform:scale(1);}
+}
+
+@-webkit-keyframes bossAni
+{
+0%   { -webkit-transform:translate3d(0,0px,0);}
+25%  { -webkit-transform:translate3d(0,-3px,0);}
+50%  { -webkit-transform:translate3d(0,-6px,0);}
+75%  { -webkit-transform:translate3d(0,-3px,0);}
+100% { -webkit-transform:translate3d(0,0px,0);}
+}
+
+@media all and (orientation : landscape) { /*　　这是匹配横屏的状态，横屏时的css代码　　*/
+	.game-ore{ display: none;}
+	.wrapper{ display: block;}
+	.scene-mask-area{ display: block;}
+} 
+@media all and (orientation : portrait){ /*　　这是匹配竖屏的状态，竖屏时的css代码　　*/
+ 	.game-ore{ display: block;}
+ 	.wrapper{ display: none;}
+ 	.scene-mask-area{ display: none;}
+} 
